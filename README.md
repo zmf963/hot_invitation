@@ -29,6 +29,8 @@ INFO:     Waiting for application startup.
 INFO:     Application startup complete.
 ```
 
+使用浏览器访问 http://ip:8080 
+
 ### 使用docker
 
 `docker-compose build && docker-compose up　-d `
