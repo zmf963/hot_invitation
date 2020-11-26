@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block body_content %}
+<div class="content">
+    <div class="container-xl">
+        <form class="form-inline" action="/2020/produce/" method="post">
+            <input type="text" style='height: 36px' name="pngname" size="28" placeholder="Enter Name">
+            <button type="submit" class="btn btn-primary">生成</button>
+        </form>
+        <div>
+            <img src="/data/base.png" class="img-thumbnail" alt="Cinque Terre">
+        </div>
+    </div>
+</div>
+
+{% endblock %}

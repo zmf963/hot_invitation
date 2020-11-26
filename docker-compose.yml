@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  hot_invitation:
+    build: .
+    image: hot_invitation
+    ports:
+      - 8080:8080
+    volumes:
+      - ./hot_invitation/data/:/opt/hot_invitation/hot_invitation/data

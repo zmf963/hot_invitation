@@ -1,0 +1,11 @@
+fastapi
+aiofiles==0.6.0
+click==7.1.2
+h11==0.11.0
+Jinja2==2.11.2
+loguru==0.5.3
+MarkupSafe==1.1.1
+Pillow==8.0.1
+python-multipart==0.0.5
+six==1.15.0
+uvicorn==0.12.3

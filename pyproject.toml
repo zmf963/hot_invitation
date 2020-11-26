@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "hot_invitation"
+version = "0.1.0"
+description = "支持PyCon China社区活动所写的小工具"
+authors = ["zmf96"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+fastapi = "^0.61.2"
+Pillow = "^8.0.1"
+python-multipart = "^0.0.5"
+aiofiles = "^0.6.0"
+jinja2 = "^2.11.2"
+loguru = "^0.5.3"
+uvicorn = "^0.12.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[[tool.poetry.source]]
+name = "ali"
+url = "https://mirrors.aliyun.com/pypi/simple/"
